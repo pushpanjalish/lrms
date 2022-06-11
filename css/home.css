@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(212, 236, 247);
+    font-family: 'Mochiy Pop One', sans-serif;
+
+}
+.flex-box{
+    display:flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.logout{
+    font-size: 24px;
+    cursor: pointer;
+}
+h2{
+    font-size: 32px;
+    color: rgb(160, 10, 35);
+}
+.flex-container{
+    display:flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+.details div{
+    font-size: 32px;
+}
+img{
+    /* width: 200px;
+    height: auto; */
+    width: 250px;
+      height: 250px;
+    border: 1px solid black;
+    border-radius: 250px;
+    line-height: 1.5;
+}
+
+/* Responsive */
+@media screen and (max-width: 730px){
+    .flex-container{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .details{
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+
+
+
